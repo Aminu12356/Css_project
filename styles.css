@@ -1,0 +1,100 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f7fa;
+  color: #1a1a2e;
+}
+
+header {
+  background-color: #1a1a2e;
+  padding: 18px 60px;
+}
+
+h1 {
+  font-size: 4rem;
+  color: blue;
+}
+
+h2 {
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+footer {
+  background-color: #111122;
+  color: #666;
+  text-align: center;
+  padding: 20px;
+}
+
+
+/* 2. CLASS — targets elements using . */
+.logo {
+  font-size: 1.4rem;
+  font-weight: 750;
+  color: #e94560;
+}
+
+.nav-links li {
+  display: inline;
+  margin-left: 30px;
+}
+
+.hero {
+  background-color: #1a1a2e;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-role {
+  color: #a8b2d8;
+  font-size: 1.3rem;
+}
+
+.btn {
+  background-color: #e94560;
+  color: white;
+  padding: 12px 32px;
+  border-radius: 30px;
+  font-weight: 700;
+}
+
+.about-content {
+  background-color: #f5f7fa;
+  padding: 40px;
+  border-radius: 16px;
+}
+
+.project-card {
+  background-color: #f5f7fa;
+  border-radius: 16px;
+}
+
+.contact {
+  background-color: #0f3460;
+  text-align: center;
+  padding: 80px 60px;
+  color: white;
+}
+
+
+#home {
+  min-height: 100vh;
+}
+
+#about {
+  padding: 80px 60px;
+  background-color: white;
+}
+
+#projects {
+  padding: 80px 60px;
+}
+
+#contact {
+  padding: 100px 60px;
+}
